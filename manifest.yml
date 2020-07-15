@@ -1,0 +1,4 @@
+applications:
+ - name: gdutils999
+   host: gdutils999
+   memory: 256M
