@@ -17,7 +17,7 @@ app.use(ctx => {
   ctx.body = 'not found'
 })
 
-const PORT = 8080
+const PORT = process.env.PORT || 23333
 app.listen(PORT, '0.0.0.0', console.log('http://127.0.0.1:' + PORT))
 
 async function catcher (ctx, next) {
